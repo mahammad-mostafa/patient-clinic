@@ -43,6 +43,7 @@ This repository includes a file called `schema_based_on_diagram` with plain `SQL
 - Each invoice item is linked with the (medical history / treatment) tables through foreign keys (invoice_id / treatment_id)
 - Table for treatments information which include (type / name)
 - Join table named histories treatments for bridging between dical histories & treatments tables
+- All foriegn keys are indexed for optimizing queries performance
 
 <p align="right"><a href="#title">back to top</a></p>
 
